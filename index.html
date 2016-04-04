@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body onload="onLoad()">
+	<header id="header">
+		<a href="#" onclick="descerNavigator()" id="menu-button"><img src="img/menu-icon.png" alt=""></a>
+
+		<nav id="navigator">
+		<dl class="menu">
+			<dd class="item-menu"><a href="#" class="link-menu">lorem</a></dd>
+			<dd class="item-menu"><a href="#" class="link-menu">lorem</a></dd>
+			<dd class="item-menu"><a href="#" class="link-menu">lorem</a></dd>
+			<dd class="item-menu"><a href="#" class="link-menu">lorem</a></dd>
+			<dd class="item-menu"><a href="#" class="link-menu">lorem</a></dd>
+		</dl>
+	</nav>
+	</header>
+
+	
+
+	<div id="container">
+		<div class="jumbo">
+			<img id="jumboImg" src="img/sample.jpg" alt="feira da fruta">
+			<!-- <img class ="trans" src="img/Lenovo-p780-camera-sample-10.jpg"alt=""> -->
+			<a href="#" id="antes" onclick="mudarImg(-1)"><img src="img/icon-previous.svg" height="16" width="16" alt=""></a>
+			<a href="#" id="depois" onclick="mudarImg(1)"><img src="img/icon-next.svg" height="16" width="16" alt=""></a>
+		</div>
+		<main id="main"></main>
+	</div>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>
